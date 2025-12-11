@@ -60,6 +60,7 @@ setuptools.setup(
         "cached-property",
         "kcidb-io@git+https://github.com/kernelci/kcidb-io.git",
         "jq@git+https://github.com/kernelci/jq.py.git@1.7.0.post1",
+        "prometheus_client"
     ],
     extras_require=dict(
         dev=[
